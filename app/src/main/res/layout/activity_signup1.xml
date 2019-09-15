@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/f4"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="144dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/green" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="376dp"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:text="@string/signup"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Name"
+            android:inputType="text"
+            android:maxLength="20"
+            android:maxLines="2"
+            android:textColorHint="@color/black"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Email"
+            android:inputType="text|number"
+            android:maxLength="20"
+            android:maxLines="2"
+            android:textColorHint="@color/black"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Password"
+            android:inputType="numberPassword|textWebPassword"
+            android:maxLength="8"
+            android:textColorHint="@color/black"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:textColorHint="@color/black"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Phone no."
+            android:inputType="text|number"
+            android:maxLength="20"
+            android:maxLines="2"
+            android:textColorHint="@color/black"
+            android:textStyle="italic" />
+
+        <Button
+            android:layout_width="81dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Signup" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an account ?  Login"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</FrameLayout>

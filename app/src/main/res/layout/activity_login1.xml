@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myproject.project.login1"
+    android:orientation="vertical"
+    android:background="@drawable/f4">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iml"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/green" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/iml"
+        android:layout_marginTop="-7dp"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
+        />
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="@string/enter_the_email_or_phone_number"
+        android:layout_below="@+id/t1"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Enter the password"
+        android:layout_below="@+id/e1"
+        android:textColorHint="@color/black"/>
+
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/e2"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="6dp"
+        android:text="login"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/but1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:text="Forgot password"
+        />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/but1"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:text="Create Account" />
+
+</RelativeLayout>
